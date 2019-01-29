@@ -17,15 +17,15 @@ blogdir = "blog"
     name = "Home"
     url = "/"
     weight = 1
-# [[menu.main]]
-#    name = "Research"
-#    url = "/research/"
-#    weight = 2
-# [[menu.main]]
-#    name = "Teaching"
-#    url = "/Teaching/"
-#    weight = 3
-[[menu.main]]
+[[menu.main]]           # comment out this row, plus the name, url, and weight to omit  
+   name = "Research"    
+   url = "/research/"
+   weight = 2
+[[menu.main]]           # comment out this row, plus the name, url, and weight to omit 
+   name = "Teaching"
+   url = "/teaching/"
+   weight = 3
+[[menu.main]]           # comment out this row, plus the name, url, and weight to omit 
     name = "Blog"
     url = "/blog/"
     weight = 4
@@ -37,7 +37,7 @@ blogdir = "blog"
 [params]
     description = "Your name and a few keywords on your academic interests" 
     subtitle = "A few keywords on your academic interests"
-    home_text = "A paragraph or so of professional bio"
+    home_text = "A paragraph or so of professional bio.  Write it in the config.toml file---it's called home_text---as one long string."
 
     author = "Your Name"
     dateFormat = "2006/01/02"
@@ -45,6 +45,10 @@ blogdir = "blog"
     github_username = "your_github_username"
     twitter_username = "your_twitter_username"  # leave empty quotes to omit
     gscholar_code = "your_gscholar_code"        # leave empty quotes to omit    
+
+
+
+
 
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.12.0"
