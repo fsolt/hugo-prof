@@ -1,9 +1,17 @@
 ---
 title: "Hello R Markdown"
 author: "Frida Gomam"
-date: 2015-07-23T21:13:14-05:00
-categories: ["R"]
-tags: ["R Markdown", "plot", "regression"]
+date: 2015-07-23
+slug: hello-rmarkdown
+tags:
+  - r
+  - rmarkdown
+bibliography: /path/to/your/personal/bibtex_library.bib
+csl: apsa.csl
+fig_height: 4 
+output:
+    html_document:
+        self_contained: true
 ---
 
 ```{r setup, include=FALSE}
