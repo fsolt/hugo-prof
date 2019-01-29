@@ -5,7 +5,7 @@ slug: hello-rmarkdown
 tags:
   - markdown
 bibliography: /path/to/your/personal/bibtex_library.bib
-csl: apsa.csl
+csl: themes/hugo-prof/static/csl/apsa.csl
 fig_height: 4 
 output:
     html_document:
