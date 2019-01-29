@@ -1,0 +1,58 @@
+baseurl = "http://example.netlify.io/"
+relativeurls = false
+languageCode = "en-us"
+title = "Your Name"
+theme = "hugo-prof"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+uglyURLS = false
+enableEmoji = true
+blogdir = "blog"
+
+[permalinks]
+    post = "blog/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+# [[menu.main]]
+#    name = "Research"
+#    url = "/research/"
+#    weight = 2
+# [[menu.main]]
+#    name = "Teaching"
+#    url = "/Teaching/"
+#    weight = 3
+[[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 4
+[[menu.main]]
+    name = "CV"
+    url = "/cv/"
+    weight = 5
+
+[params]
+    description = "Your name and a few keywords on your academic interests" 
+    subtitle = "A few keywords on your academic interests"
+    home_text = "A paragraph or so of professional bio"
+
+    author = "Your Name"
+    dateFormat = "2006/01/02"
+    email = "your_email@uppermidwest.edu"
+    github_username = "your_github_username"
+    twitter_username = "your_twitter_username"  # leave empty quotes to omit
+    gscholar_code = "your_gscholar_code"        # leave empty quotes to omit    
+
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.12.0"
+    highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+
+    MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    MathJaxVersion = "2.7.5"
+
+
