@@ -44,7 +44,9 @@
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/css/custom.css">
   <link rel="stylesheet" href="/css/academicons.css">
-  
+  <style type="text/css">
+    {{ partial "colors.css" . | safeCSS }}
+  </style>
 
 {{ partial "head_highlightjs" . }}
 

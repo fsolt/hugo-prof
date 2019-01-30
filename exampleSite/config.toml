@@ -46,8 +46,10 @@ blogdir = "blog"
     twitter_username = "your_twitter_username"  # leave empty quotes to omit
     gscholar_code = "your_gscholar_code"        # leave empty quotes to omit    
 
-
+    page_color = "white"
+    text_color = "black"
     link_color = "rgb(0, 0, 152)"
+    hover_color = "rgb(255, 102, 0)"
 
 
     # options for highlight.js (version, additional languages, and theme)
