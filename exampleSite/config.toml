@@ -47,7 +47,7 @@ blogdir = "blog"
     gscholar_code = "your_gscholar_code"        # leave empty quotes to omit    
 
 
-
+    link_color = "rgb(0, 0, 152)"
 
 
     # options for highlight.js (version, additional languages, and theme)
