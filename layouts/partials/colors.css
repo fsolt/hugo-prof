@@ -2,8 +2,8 @@
 /* Page Background
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 body {
-	background-color: {{ .Site.Params.page_color }}
-	color: {{ .Site.Params.text_color }}
+	background-color: {{ .Site.Params.page_color }};
+	color: {{ .Site.Params.text_color }};
 }
 
 /* Links
