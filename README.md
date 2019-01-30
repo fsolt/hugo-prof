@@ -1,6 +1,6 @@
 # Hugo Prof
 
-A clean theme designed for academics for [Hugo](https://gohugo.io/) derived from https://github.com/yihui/hugo-lithium (in turn forked from https://github.com/jrutheiser/hugo-lithium-theme with modifications to make it work better with [**blogdown**](https://github.com/rstudio/blogdown)0.
+A clean theme designed for academics for [Hugo](https://gohugo.io/) derived from https://github.com/yihui/hugo-lithium (in turn forked from https://github.com/jrutheiser/hugo-lithium-theme with modifications to make it work better with [**blogdown**](https://github.com/rstudio/blogdown).
 
 The easiest way to get started is to create a new (empty) RStudio project, then
 
@@ -22,7 +22,6 @@ For the full documentation, please see this section in the **blogdown** book: ht
 - Google web fonts (Merriweather and Lato)
 - MathJax
 - highlight.js
-
 
 ## License
 
