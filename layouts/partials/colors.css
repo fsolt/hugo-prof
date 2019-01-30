@@ -2,8 +2,8 @@
 /* Page Background
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 body {
-	background-color: {{ .Param.page_color }}
-	color: {{ .Param.text_color }}
+	background-color: {{ .Site.Params.page_color }}
+	color: {{ .Site.Params.text_color }}
 }
 
 /* Links
@@ -12,10 +12,10 @@ body {
 a {
     text-decoration: none;
     /*border-bottom: 1px grey solid;*/
-      color: {{ .Param.link_color }};
+      color: {{ .Site.Params.link_color }};
   }
 a:hover {
-  color: {{ .Param.hover_color }};
+  color: {{ .Site.Params.hover_color }};
 }
 
 
@@ -42,8 +42,8 @@ input[type="button"] {
   cursor: pointer;
   box-sizing: border-box; 
   color: #FFF;
-  background-color: {{ .Param.link_color }};
-  border-color: {{ .Param.link_color }};
+  background-color: {{ .Site.Params.link_color }};
+  border-color: {{ .Site.Params.link_color }};
 }
 .button:hover,
 button:hover,
@@ -56,6 +56,6 @@ input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
   color: #FFF;
-  background-color: {{ .Param.hover_color }};
-  border-color: {{ .Param.hover_color }}; }
+  background-color: {{ .Site.Params.hover_color }};
+  border-color: {{ .Site.Params.hover_color }}; }
 
